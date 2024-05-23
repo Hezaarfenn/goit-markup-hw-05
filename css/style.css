@@ -498,6 +498,10 @@ a {
     color: #ffffff;
 }
 
+.footer-mail-input::placeholder {
+    color: #ffffff;
+}
+
 .footer-mail-button {
     min-width: 165px;
     height: 40px;
@@ -517,7 +521,5 @@ a {
 }
 
 .footer-mail-svg {
-    width: 24px;
-    height: 24px;
     margin-left: 16px;
 }
