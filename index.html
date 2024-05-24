@@ -438,7 +438,7 @@
     <!-- MODAL WINDOW -->
     <div class="modal-window-container">
         <div class="modal-window">
-            <button class="modal-window-button" type="submit">
+            <button class="modal-window-button" type="button">
                 <svg class="modal-window-svg" width="8" height="8">
                     <use href="./images/icons.svg#icon-Vector-3"></use>
                 </svg>
@@ -448,7 +448,7 @@
 
             <form class="modal-window-form">
                 <div class="modal-window-form-div">
-                    <label class="modal-window-label modal-window-form-label"
+                    <label class="modal-window-label"
                            for="user-name">Name</label>
                     </label>
 
@@ -496,9 +496,9 @@
                     </div>                    
                 </div>
 
-                <div class="modal-window-form-div">
-                    <label class="modal-window-form-label"
-                           for="user-name">Comment</label></label>
+                <div class="modal-window-form-div modal-window-form-comment-div">
+                    <label class="modal-window-label"
+                           for="user-comment">Comment</label></label>
                     <textarea class="modal-window-form-textarea"
                               id="user-comment"
                               name="user-comment"
@@ -506,7 +506,7 @@
                 </div>
 
                 <div class="modal-window-checkbox-div">
-                    <input class="modal-window-checkbox-input visually-hidden"
+                    <input class="modal-window-checkbox-input"
                            id="user-privacy"
                            type="checkbox"
                            value="true"

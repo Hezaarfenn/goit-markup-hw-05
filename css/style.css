@@ -580,8 +580,8 @@ a {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window-svg:hover,
-.modal-window-svg:focus {
+.modal-window .modal-window-button:hover,
+.modal-window .modal-window-button:focus {
     fill: #ffffff;
 }
 
@@ -599,7 +599,7 @@ a {
     margin-bottom: 8px;
 }
 
-.modal-window-label modal-window-form-label {
+.modal-window-label {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -620,7 +620,7 @@ a {
     background-color: transparent;
     padding-left: 38px;
     outline: transparent;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-window-form-input:focus {
@@ -685,7 +685,9 @@ a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    fill: transparent;
+    fill: #f4f4fd
+    background-color: #404bbf;
+    border: none;
 }
 
 .modal-window-checkbox-link {
