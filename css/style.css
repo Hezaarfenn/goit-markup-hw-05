@@ -711,5 +711,5 @@ a {
 .modal-window-checkbox-input:checked + .modal-window-checkbox-label .modal-window-checkbox-span {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff;
+    fill: #f4f4fd;
 }
